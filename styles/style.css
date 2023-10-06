@@ -11,6 +11,15 @@
   
   .nav-bar {
     background: #223030;
+    color: #ffffff; /* Change text color to white */
+  display: flex;
+  justify-content: space-between; /* To align logo and circles at the ends */
+  align-items: center; /* To vertically center everything */
+  position: fixed;
+  top: 0;
+  left: 0; /* Set to 0 to make it full width */
+  right: 0; /* Set to 0 to make it full width */
+  padding: 10px 20px; /* Add padding for better spacing */
   
   }
   
