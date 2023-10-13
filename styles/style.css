@@ -2,25 +2,60 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
   html, body {
     height: 100%;
   }
-  
-  .nav-bar {
-    background: #223030;
-    color: #ffffff; /* Change text color to white */
-  display: flex;
-  justify-content: space-between; /* To align logo and circles at the ends */
-  align-items: center; /* To vertically center everything */
-  position: fixed;
-  top: 0;
-  left: 0; /* Set to 0 to make it full width */
-  right: 0; /* Set to 0 to make it full width */
-  padding: 10px 20px; /* Add padding for better spacing */
-  
-  }
-  
-  
+
+/* Style the navigation bar */
+header {
+    background-color: #223030;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0; /* Set to 0 to make it full width */
+    right: 0; /* Set to 0 to make it full width */
+    padding: 50px 100px; /* Add padding for better spacing */
+    
+}
+
+
+nav ul {
+    list-style: none;
+    
+    
+}
+
+nav ul li {
+    display: inline; /*the text displays in a horizontal line*/  
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 120px;
+    
+}
+
+a.active, a:hover {
+  background-color: #0385c2;
+  transition: 1s;
+}
+
+main {
+  position: relative;
+  top: 100px;
+  border: 5px solid;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+
